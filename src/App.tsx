@@ -4,13 +4,17 @@ import {
     LinePlot,
     DisjointForceDirectedGraph,
     ForceGraph,
+    CollisionDetectionGraph,
+    ForceDirectedLattice,
 } from "./components";
 
 const controller = {
     Axis: false,
     LinePlot: false,
     DisjointForceDirectedGraph: false,
-    ForceGraph: true,
+    ForceGraph: false,
+    CollisionDetectionGraph: false,
+    ForceDirectedLattice: true,
 };
 
 function App() {
@@ -22,6 +26,8 @@ function App() {
                 <DisjointForceDirectedGraph />
             )}
             {controller.ForceGraph && <ForceGraph />}
+            {controller.CollisionDetectionGraph && <CollisionDetectionGraph />}
+            {controller.ForceDirectedLattice && <ForceDirectedLattice />}
         </div>
     );
 }
