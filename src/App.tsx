@@ -11,9 +11,9 @@ import {
 const controller = {
     Axis: false,
     LinePlot: false,
-    DisjointForceDirectedGraph: false,
-    ForceGraph: false,
-    CollisionDetectionGraph: false,
+    DisjointForceDirectedGraph: true,
+    ForceGraph: true,
+    CollisionDetectionGraph: true,
     ForceDirectedLattice: true,
 };
 

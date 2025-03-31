@@ -1,11 +1,19 @@
-# React + TypeScript + Vite
+# D3.js Exploration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Force Graph
+2. ...
 
-Currently, two official plugins are available:
+<div style="padding: 10px; display: flex; justify-content: center; align-items: center;">
+<img src="./public/Custom-Force-Graph.png" alt="Custom-Force-Graph" style="border-radius: 10px; width:80vw; max-width: 800px;"/>
+</div>
 
--   [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
--   [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<div style="padding: 10px; display: flex; justify-content: center; align-items: center;">
+<img src="./public/Radial-Force-Graph.png" alt="Radial-Force-Graph" style="border-radius: 10px; width:80vw; max-width: 800px;"/>
+</div>
+
+<div style="padding: 10px; display: flex; justify-content: center; align-items: center;">
+<img src="./public/Force-Directed-Lattice.png" alt="Force-Directed-Lattice" style="border-radius: 10px; width:80vw; max-width: 800px;"/>
+</div>
 
 ## Expanding the ESLint configuration
 
